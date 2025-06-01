@@ -1,0 +1,89 @@
+
+
+
+body{
+	margin: unset; /*Unset clears all the preset attributes or settings. */
+	font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+
+#menuicon {
+width: 35px;
+height: 5px;
+background-color: black;
+margin: 6px;
+} 
+
+#menuicon{
+    float: right;
+    margin-right: 10px;
+}
+
+.navbar {
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.corpname {
+    margin-top: 20px;
+    float: left;
+}
+
+#hamburger-toggle {
+    display: none;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 70px;
+}
+
+.hdrtitle {
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+hr {
+    display: none;
+}
+
+ .chickenid{
+    text-align: center;
+}
+
+.pagecontent{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 5px;
+    border: 1px solid blue;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 750px) {
+
+a {
+    display: block;
+    text-align: center;
+}
+
+hr {
+    display: block;
+    text-align: center;
+}
+
+#hamburger-toggle{
+    display: block;
+    margin-bottom: 50px;
+}
+
+}
+
